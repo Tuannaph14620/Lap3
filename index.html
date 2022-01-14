@@ -1,4 +1,3 @@
-html
 <!doctype html>
 <html>
 
@@ -9,10 +8,24 @@ html
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline ">
-        Hello world!
-    </h1>
-    <script type="module" src="./main.js"></script>
+    <ul class="flex">
+        <li><a href="/" class=" mr-10 hover:text-blue-800 underline">Trang chủ</a></li>
+        <li>
+            <a href="/signup" class="mr-10 hover:text-blue-800">Signup </a>
+        </li>
+        <li>
+            <a href="/signin" class="mr-10 hover:text-blue-800">Signin </a>
+        </li>
+        <li>
+            <a href="/admin/dashboard" class="mr-10 hover:text-blue-800">Admin </a>
+        </li>
+        <li>
+            <a href="/tuyendung" class="mr-10 hover:text-blue-800">Tuyển dụng </a>
+        </li>
+    </ul>
+
+    <div id="app"></div>
+    <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>
